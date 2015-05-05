@@ -40,7 +40,7 @@ print "Liczba akapitow : ", counter_tabs
 average_amount_of_letters = 0.0
 average_amount_of_words = 0.0
 try:
-    average_amout_of_letters = float(counter_letters)/counter_words
+    average_amount_of_letters = float(counter_letters)/counter_words
 except ZeroDivisionError:
     print "Pusty plik"
 try:
